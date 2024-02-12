@@ -1,0 +1,22 @@
+{
+  "name": "bmdm",
+  "version": "0.0.1",
+  "description": "bmdm: Bot Maker for Discord Manager. Manage all your mods using one CLI tool.",
+  "main": "bmdm.js",
+  "bin": {
+    "bmdm": "./bmdm.js"
+  },
+  "keywords": [
+    "manager",
+    "bmd",
+    "bot maker for discord"
+  ],
+  "author": "qizzle",
+  "license": "MIT",
+  "owner": "RatWasHere",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "colors": "^1.4.0",
+    "commander": "^12.0.0"
+  }
+}
